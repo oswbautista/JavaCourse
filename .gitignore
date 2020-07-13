@@ -1,0 +1,7 @@
+# Project exclude paths
+# Intellij
+.idea/
+.git/
+out/
+*.iml
+*.iws
