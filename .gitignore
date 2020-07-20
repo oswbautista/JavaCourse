@@ -5,3 +5,8 @@
 out/
 *.iml
 *.iws
+
+# Игнорировать java файлы
+*.java
+# Но конкретно ask*.java не игнорировать
+!task*.java
