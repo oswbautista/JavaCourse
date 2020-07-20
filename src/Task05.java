@@ -1,6 +1,6 @@
 import java.util.Locale;
 import java.util.Scanner;
-    public class task05 {
+    public class Task05 {
         public static void main(String[] args) {
             String val;
             double getVal;
@@ -20,6 +20,6 @@ import java.util.Scanner;
             System.out.printf(Locale.ROOT,"%f x  %d = %f %n", getVal, i, getVal * i++);
             System.out.printf(Locale.ROOT,"%f x  %d = %f %n", getVal, i, getVal * i++);
             System.out.printf(Locale.ROOT,"%f x  %d = %f %n", getVal, i, getVal * i++);
-            System.out.printf(Locale.ROOT,"%f x %d = %f %n", getVal, i, getVal * i++);
+            System.out.printf(Locale.ROOT,"%f x %d = %f %n", getVal, i, getVal * i);
         }
     }

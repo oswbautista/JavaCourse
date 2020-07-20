@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class task07 {
+public class Task07 {
     public static void main(String[] args) {
         String val;
         double X = 5, Y = 10, Z = 15, number;
