@@ -9,4 +9,4 @@ out/
 # Игнорировать java файлы
 *.java
 # Но конкретно ask*.java не игнорировать
-!task*.java
+!Task*.java
