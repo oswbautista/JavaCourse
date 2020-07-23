@@ -5,9 +5,9 @@ public class Task10 {
         int a, b;
 
         Scanner in = new Scanner(System.in);
-        System.out.print("Введите количество строк массива: ");
+        System.out.print("Введите количество строк матрицы: ");
         a = in.nextInt();
-        System.out.print("Введите количество столбцов массива: ");
+        System.out.print("Введите количество столбцов матрицы: ");
         b = in.nextInt();
 
         int[][] arr = new int[a][b];

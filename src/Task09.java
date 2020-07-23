@@ -19,7 +19,7 @@ public class Task09 {
         }
         in.close();
         System.out.println();
-        System.out.println("Массив * 2:");
+        System.out.println("Массив * 2: ");
         for (int i = 0; i < a; i++) {
             for (int j = 0; j < b; j++) {
                 System.out.print(2 * arr[i][j] + "\t");
