@@ -1,11 +1,10 @@
 import java.util.Scanner;
 public class Task06 {
     public static void main(String[] args) {
-        String val;
         double x, y, z, avg, dresult;
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите три числа: ");
-        val = sc.nextLine();
+        String val = sc.nextLine();
         x = Double.parseDouble(val);
         val = sc.nextLine();
         y = Double.parseDouble(val);

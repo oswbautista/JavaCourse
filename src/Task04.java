@@ -1,12 +1,10 @@
 import java.util.Scanner;
 public class Task04 {
         public static void main(String[] args) {
-            int binNum;
-            String bin;
             Scanner sc = new Scanner(System.in);
-            System.out.println("Введите двоичное число: ");
-            bin = sc.nextLine();
-            binNum = Integer.parseInt(bin, 2);
+            System.out.print("Введите двоичное число: ");
+            String bin = sc.nextLine();
+            int binNum = Integer.parseInt(bin, 2);
 
             System.out.println(bin + "(двоичное) = " + binNum + "(десятичное)");
         }
