@@ -21,11 +21,9 @@ public class Task10 {
         in.close();
         System.out.println();
         System.out.println("Первая строка матрицы * 3:");
-        for (int i = 0; i < 1; i++) {
-            for (int j = 0; j < b; j++) {
-                System.out.print(3 * arr[i][j] + "\t");
+        for (int j = 0; j < b; j++) {
+            System.out.print(3 * arr[1][j] + "\t");
             }
          System.out.println();
         }
     }
-}
