@@ -5,11 +5,11 @@ public class Task18 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         System.out.print("Введите имя файла .txt для обработки данных (имя без расширения): ");
-        String nm = in.nextLine() + ".txt";
+        String path = "src/" + in.nextLine() + ".txt";
         String s;
         int i = 0;
         try (BufferedReader br =
-                     new BufferedReader(new FileReader(nm)))
+                     new BufferedReader(new FileReader(path)))
         {
             while ((s = br.readLine()) != null) {
                 System.out.println(s);
@@ -19,7 +19,7 @@ public class Task18 {
             System.out.println("Ошибка ввода/вывода: " + exc);
         }
 
-        writeNewText(nm, i);
+        writeNewText(path, i);
     }
     public static void writeNewText (String fileName, int j){
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

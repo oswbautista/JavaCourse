@@ -10,4 +10,4 @@ out/
 *.java
 # Но конкретно Task*.java не игнорировать
 !Task*.java
-!task*.java
+!FinalTask*.java
